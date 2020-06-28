@@ -1,0 +1,202 @@
+/* 
+  Localizable.strings
+  Personal Best
+
+  Created by Roberto Gil.
+*/
+
+/*
+NOTES: 
+
+'Personal Best' should never be localized, as it is a proper noun.
+
+Idiomatic phrases that sound good in English but don't translate well shouldn't
+be translated exactly, but instead to a close match. For example "Put your workouts to work"
+only really makes sense in English.
+
+The workout type descriptions at the bottom of this file should ideally match the available
+workouts in watchOS's Workouts app. If you don't want to go through the Workouts app to map
+strings to workout types, simply leave them blank and I will do it. No pressure!
+*/
+
+"CUSTOMIZE" = "Personalizar";
+"WORKOUT_TYPE" = "Actividad";
+
+"VIEW_ALL" = "Ver todo";
+"ALL" = "Todo";
+
+"ABOUT" = "Acerca de";
+
+"MOST_RECENT" = "Más reciente";
+
+"DISTANCE" = "Distancia";
+"DURATION" = "Duración";
+"CALORIES" = "Calorias";
+"PACE" = "Ritmo";
+"ELEVATION_GAIN" = "Altitud ganada";
+"STARTED_AT" = "Empezado a";
+"ENDED_AT" = "Terminado a";
+
+"CLOSE" = "Cerrar";
+"SHARE" = "Compartir";
+"WORKOUT" = "Entrenamiento";
+
+"FILTERS" = "Filtros";
+"NEW_FILTER" = "Nuevo filtro";
+"EDIT_FILTER" = "Editar filtro";
+"DELETE" = "Borrar";
+"FILTER_NAME" = "Nombre del filtro";
+
+"DELETE_FILTER_PROMPT" = "Borrar este filtro?";
+
+"TIME_PERIOD" = "Periodo de tiempo";
+"DATE" = "Dia";
+"SORT_BY" = "Ordenar por";
+"INDOOR_ONLY" = "Solo interior";
+
+"UNIT" = "Unidad";
+"UNITS" = "Unidades";
+"SHOW_MOST_RECENT_WORKOUT" = "Ver entrenamiento más reciente";
+
+"UNLOCK_PB_PRO" = "Abrir Personal Best Pro";
+"PB_PRO_PURCHASED" = "Has comprado Personal Best Pro!";
+
+"PB_PRO_TITLE" = "Obtener versión completa.";
+"PB_PRO_SUBTITLE" = "Eleva tus entrenos a nivel pro con Personal Best Pro.";
+
+"PB_PRO_FILTERS_TITLE" = "Filtros ilimitados";
+"PB_PRO_FILTERS_DESC" = "Crea tantos como quieras. Tu imaginación es el limite";
+
+"PB_PRO_SUPPORT_TITLE" = "Permite colaboraciones en el desarrollo de la app";
+"PB_PRO_SUPPORT_DESC" = "Muestra tu apoyo y ayuda a desarrollar nuevas funcionalidades para Personal Best.";
+
+"PB_PRO_THANKS" = "Gracias por tu apoyo 🎉";
+"PB_PRO_LATER" = "Quizás después";
+"PB_PRO_UNAVAILABLE" = "La versión no está disponible";
+
+"IAP_RESTORE" = "Recuperar compra previa";
+"IAP_NOT_ALLOWED" = "Tu cuenta en el App Store no puede realizar compras";
+
+"MADE_BY" = "Desarrollado por Shaun en Londres, Reino Unido 🇬🇧";
+"RATE_PROMPT" = "Valora en el App Store 💌";
+
+"RESET" = "Resetear a valores por defecto";
+"SAVE" = "Guardar";
+
+"ANY" = "Todo";
+"MORE_THAN" = "Mas que";
+"LESS_THAN" = "Menos que";
+"IN_THE_LAST" = "Despues";
+
+"SECONDS" = "Segundoses";
+"MINUTES" = "Minutos";
+"DAY" = "Día";
+"DAYS" = "Días";
+"WEEK" = "semana";
+"WEEKS" = "semanas";
+"MONTH" = "mes";
+"MONTHS" = "meses";
+"YEAR" = "año";
+"YEARS" = "años";
+
+"TYPE" = "Tipo";
+"AMOUNT" = "Cantidad";
+
+"USE_IPHONE_DESC" = "Utilizar Personal Best para conectar tu iPhone con Apple Health";
+
+"WK_GETTING_WORKOUTS" = "Obteniendo entrenamientos..";
+"WK_NO_WORKOUTS" = "No hay entrenos en los ultimos 7 dias.";
+"WK_ABOUT_DESC" = "El Apple Watch solo guarda los últimos 7 dias de entrenamientos.\nPara ver mas, usa Personal Best en tu iPhone.";
+
+"ONBOARDING_TITLE" = "Saca el maximo de tus entrenos.";
+"ONBOARDING_ONE" = "Compara tus mejores marcas, distancias mas largas y mas.";
+"ONBOARDING_TWO" = "Desata el entrenador que hay en ti con los potentes filtros";
+
+"ONBOARDING_PERMISSION_TITLE" = "Para ver tus entrenos, Personal Best necesita sincronizar con Apple Health.";
+"ONBOARDING_PERMISSION_DESC" = "Ningún dato será compartido fuera de tu iPhone y tus entrenos serán completamente privados.";
+
+"HK_PERM_BUTTON_TEXT" = "Sincronizar con Apple Health";
+
+"SHARE_WORKOUT_INTRO" = "Consulta mi";
+"SHARE_WORKOUT_OUTRO" = "Consulta tus mejores marcas en Personal Best";
+
+"SHARE_APP_TEXT" = "Estoy usando Personal Best para guardar mis mejores marcas. Descárgatelo, es gratis!";
+
+// HealthKit workout type descriptions.
+"All workouts" = "Todos los entrenamientos";
+"American Football" = "Fútbol americano";
+"Archery" = "Tiro con arco";
+"Australian Football" = "Fútbol australiano";
+"Badminton" = "Badminton";
+"Barre" = "Barra";
+"Baseball" = "Baseball";
+"Basketball" = "Basketball";
+"Bowling" = "Bowling";
+"Boxing" = "Boxeo";
+"Climbing" = "Escalada";
+"Core Training" = "Entrenamiento de fuerza";
+"Cross Country Skiing" = "Esqui de fondo";
+"Cross Training" = "Cross-training";
+"Curling" = "Curling";
+"Cycling" = "Ciclismo";
+"Dance Inspired Training" = "Entrenamiento con baile";
+"Dance" = "Danza";
+"Disc Sports" = "Deportes de disco";
+"Downhill Skiing" = "Esqui alpino";
+"Elliptical" = "Elliptica";
+"Equestrian Sports" = "Deportes equestres";
+"Fencing" = "Esgrima";
+"Fishing" = "Pesca";
+"Fitness Gaming" = "Juegos para ponerse en forma";
+"Flexibility" = "Flexibilidad";
+"Functional Training" = "Entrenamiento funcional";
+"Golf" = "Golf";
+"Gymnastics" = "Gimnasia";
+"Hand Cycling" = "Ciclismo con manos";
+"Handball" = "Handball";
+"High Intensity Interval Training" = "Intervalos de gran intensidad";
+"Hiking" = "Hiking";
+"Hockey" = "Hockey";
+"Hunting" = "Caza";
+"Jump Rope" = "Salto de Comba";
+"Kickboxing" = "Kickboxing";
+"Lacrosse" = "Lacrosse";
+"Martial Arts" = "Artes marciales";
+"Mind and Body" = "Mente y cuerpo";
+"Mixed Cardio" = "Cardio mixto";
+"Mixed Metabolic Cardio Training" = "Entrenamiento cardio-metabolico mixto";
+"Other" = "Otros";
+"Paddle Sports" = "Deportes de remo";
+"Pilates" = "Pilates";
+"Play" = "Jugar";
+"Preparation and Recovery" = "Recuperacion";
+"Racquetball" = "Racquetball";
+"Rowing" = "Remo";
+"Rugby" = "Rugby";
+"Running" = "Correr";
+"Sailing" = "Vela";
+"Skating Sports" = "Skateboard";
+"Snow Sports" = "Deportes de invierno";
+"Snowboarding" = "Snowboard";
+"Soccer" = "Fútbol";
+"Softball" = "Softball";
+"Squash" = "Squash";
+"Stair Climbing" = "Subir Escaleras";
+"Stairs" = "Escaleras";
+"Step Training" = "Step";
+"Strength Training" = "Entrenamiento de fuerza";
+"Surfing Sports" = "Surf";
+"Swimming" = "Natación";
+"Table Tennis" = "Ping pong";
+"Tai Chi" = "Tai-chi";
+"Tennis" = "Tenis";
+"Track and Field" = "Atletismo";
+"Volleyball" = "Volleyball";
+"Walking" = "Marcha";
+"Water Fitness" = "Gimnasia acuatica";
+"Water Polo" = "Water-polo";
+"Water Sports" = "Deportes acuaticos";
+"Wheelchair Run Pace" = "Ritmo de carrera en silla de ruedas";
+"Wheelchair Walk Pace" = "Ritmo de marcha en silla de ruedas";
+"Wrestling" = "Lucha libre";
+"Yoga" = "Yoga";
